@@ -1,0 +1,22 @@
+input
+    {
+    N = 8
+    S = 1.5
+
+    J = 1.0
+
+    quiet = yes
+    writedim = 1000
+
+    nsweeps = 5
+    sweeps
+        {
+        maxdim  mindim  cutoff  niter  noise
+        256     100       1E-6   3      1E-7
+        256     100       1E-6   3      1E-8
+        256     100       1E-6   3      1E-9
+        256     100       1E-6   3      0.0
+        256     100       1E-6   3      0.0
+        }
+
+    }
